@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'about/index'
+
   namespace :admin do
   get 'sessions/new'
   end
